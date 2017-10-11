@@ -15,6 +15,7 @@ public class PHPTravelSignupPage {
 	By txt_confirmPassword= By.xpath("//*[@id='headersignupform']/div[8]/input");
 	By btn_signupbutton= By.xpath("//*[@id='headersignupform']/div[9]/button");
 	
+	
 	public PHPTravelSignupPage(WebDriver driver)
 	{
 		this.driver = driver;
@@ -67,5 +68,7 @@ public class PHPTravelSignupPage {
 		this.setConfirmPassword(confirmPassword);
 		this.clickSignUp();
 	}
+	
+	
 	
 }
